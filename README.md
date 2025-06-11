@@ -1,1 +1,1 @@
-# fpgsha
+# Hashing algorithm implementation on FPGA
