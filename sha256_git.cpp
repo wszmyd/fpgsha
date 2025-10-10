@@ -62,7 +62,7 @@ void sha256_hls(const uint8_t *msg, uint64_t msg_len, uint8_t digest[32])
 
         if (place_len)
         {
-            // write message length in bits (big-endian)
+            // write message length in bits
             uint64_t bit_len = msg_len * 8ULL;
             for (int j = 0; j < 8; ++j)
             {
@@ -199,3 +199,4 @@ void sha256_hls(const uint8_t *msg, uint64_t msg_len, uint8_t digest[32])
         digest[4 * i + 3] = (uint8_t)((w >> 0) & 0xFF);
     }
 }
+
