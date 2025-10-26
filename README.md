@@ -1,1 +1,1 @@
-# sha512 algorithm implementation on FPGA
+# Hardware implementation of the sha512 function
