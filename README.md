@@ -1,1 +1,1 @@
-# Hashing algorithm implementation on FPGA
+# sha512 algorithm implementation on FPGA
